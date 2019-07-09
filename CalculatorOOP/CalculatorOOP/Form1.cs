@@ -15,6 +15,7 @@ namespace CalculatorOOP
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -30,34 +31,41 @@ namespace CalculatorOOP
         {
 
         }
-        private void ButtonPlus(object sender, EventArgs e)
+        
+        private void ButtonClick(object sender, EventArgs e)
         {
-            double numberValueOne = Convert.ToDouble(Value1.Text);
-            double numberValueTwo = Convert.ToDouble(Value2.Text);
-            double numberOtvet = numberValueTwo + numberValueOne;
-            textBox2.Text = numberOtvet.ToString();
-        }
-        private void ButtonMinus(object sender, EventArgs e)
-        {
-            double numberValueOne = Convert.ToDouble(Value1.Text);
-            double numberValueTwo = Convert.ToDouble(Value2.Text);
-            double numberOtvet = numberValueOne - numberValueTwo;
-            textBox2.Text = numberOtvet.ToString();
-        }
-
-        private void ButtonMultiply(object sender, EventArgs e)
-        {
-            double numberValueOne = Convert.ToDouble(Value1.Text);
-            double numberValueTwo = Convert.ToDouble(Value2.Text);
-            double numberOtvet = numberValueTwo * numberValueOne;
-            textBox2.Text = numberOtvet.ToString();
-        }
-        private void ButtonDivide(object sender, EventArgs e)
-        {
-            double numberValueOne = Convert.ToDouble(Value1.Text);
-            double numberValueTwo = Convert.ToDouble(Value2.Text);
-            double numberOtvet = numberValueOne / numberValueTwo;
-            textBox2.Text = numberOtvet.ToString();
+            double numberValueOne;
+            double numberValueTwo;
+            double numberOtvet;
+            switch (((Button)sender).Name)
+            {
+                case "button1":
+                    numberValueOne = Convert.ToDouble(Value1.Text);
+                    numberValueTwo = Convert.ToDouble(Value2.Text);
+                    numberOtvet = numberValueTwo + numberValueOne;
+                    textBox2.Text = numberOtvet.ToString();
+                    break;
+                case "button2":
+                    numberValueOne = Convert.ToDouble(Value1.Text);
+                    numberValueTwo = Convert.ToDouble(Value2.Text);
+                    numberOtvet = numberValueOne - numberValueTwo;
+                    textBox2.Text = numberOtvet.ToString();
+                    break;
+                case "button3":
+                    numberValueOne = Convert.ToDouble(Value1.Text);
+                    numberValueTwo = Convert.ToDouble(Value2.Text);
+                    numberOtvet = numberValueTwo * numberValueOne;
+                    textBox2.Text = numberOtvet.ToString();
+                    break;
+                case "button4":
+                    numberValueOne = Convert.ToDouble(Value1.Text);
+                    numberValueTwo = Convert.ToDouble(Value2.Text);
+                    numberOtvet = numberOtvet = numberValueOne / numberValueTwo;
+                    textBox2.Text = numberOtvet.ToString();
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
