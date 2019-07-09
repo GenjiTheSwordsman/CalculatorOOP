@@ -17,7 +17,19 @@ namespace CalculatorOOP
             InitializeComponent();
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Value1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void Value2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         private void ButtonPlus(object sender, EventArgs e)
         {
             double numberValueOne = Convert.ToDouble(Value1.Text);
@@ -48,6 +60,9 @@ namespace CalculatorOOP
             textBox2.Text = numberOtvet.ToString();
         }
 
-        
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
