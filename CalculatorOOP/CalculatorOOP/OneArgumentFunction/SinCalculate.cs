@@ -2,11 +2,11 @@
 
 namespace CalculatorOOP
 {
-    public class SQRT : INterfaceForPowAndSQRT
+    public class SinCalculate : INterfaceForPowAndSQRT
     {
         public double Calculte(double Number)
         {
-            return Math.Sqrt(Number);
+            return Math.Sin(Number);
         }
     }
 }

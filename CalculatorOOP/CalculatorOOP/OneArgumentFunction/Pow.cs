@@ -1,8 +1,8 @@
 ﻿namespace CalculatorOOP
 {
-    public class Pow:InterfaceForPowAndSQRT
+    public class Pow:INterfaceForPowAndSQRT
     {
-        public double forSqrtAndPow(double Number)
+        public double Calculte(double Number)
         {
             return Number * Number;
         }

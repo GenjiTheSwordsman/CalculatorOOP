@@ -1,7 +1,7 @@
 ﻿namespace CalculatorOOP
 {
-    public interface InterfaceForPowAndSQRT
+    public interface INterfaceForPowAndSQRT
     {
-        double forSqrtAndPow(double Number);
+        double Calculte(double Number);
     }
 }

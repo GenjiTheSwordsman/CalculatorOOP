@@ -44,8 +44,8 @@ namespace CalculatorOOP
         private void ButtonClickForSqrtAndPow(object sender, EventArgs e)
         {
             double numberValueOne = Convert.ToDouble(Value1.Text);
-            InterfaceForPowAndSQRT calculator = FactoryForSqrtAndPow.CreateFac(((Button)sender).Name);
-            double result = calculator.forSqrtAndPow(numberValueOne);
+            INterfaceForPowAndSQRT calculator = FactoryForSqrtAndPow.CreateFac(((Button)sender).Name);
+            double result = calculator.Calculte(numberValueOne);
             this.textBox2.Text = result.ToString();
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
