@@ -20,6 +20,8 @@ namespace CalculatorOOP
                     return new MinCalculate();
                 case "button8":
                     return new MaxCalculate();
+                case "button9":
+                    return new MiddleArithmetic();
                 default:
                     throw new Exception("Неизвестная операция");
             }

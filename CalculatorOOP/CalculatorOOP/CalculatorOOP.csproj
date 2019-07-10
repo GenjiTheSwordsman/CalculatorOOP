@@ -59,6 +59,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="TwoArgumentFunction\MaxCalculate.cs" />
+    <Compile Include="TwoArgumentFunction\MiddleArithmeticCalculate.cs" />
     <Compile Include="TwoArgumentFunction\MinCalculate.cs" />
     <Compile Include="TwoArgumentFunction\MultiplayCalculator.cs" />
     <Compile Include="OneArgumentFunction\OneArgumentCalculate.cs" />
