@@ -22,6 +22,8 @@ namespace CalculatorOOP
                     return new MaxCalculate();
                 case "button9":
                     return new MiddleArithmetic();
+                case "button10":
+                    return new MiddleGeometricCalculate();
                 default:
                     throw new Exception("Неизвестная операция");
             }
