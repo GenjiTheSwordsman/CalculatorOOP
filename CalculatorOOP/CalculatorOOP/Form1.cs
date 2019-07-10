@@ -34,41 +34,31 @@ namespace CalculatorOOP
         
         private void ButtonClick(object sender, EventArgs e)
         {
-            double numberValueOne;
-            double numberValueTwo;
-            double numberOtvet;
-            switch (((Button)sender).Name)
-            {
-                case "button1":
-                    numberValueOne = Convert.ToDouble(Value1.Text);
-                    numberValueTwo = Convert.ToDouble(Value2.Text);
-                    numberOtvet = numberValueTwo + numberValueOne;
-                    textBox2.Text = numberOtvet.ToString();
-                    break;
-                case "button2":
-                    numberValueOne = Convert.ToDouble(Value1.Text);
-                    numberValueTwo = Convert.ToDouble(Value2.Text);
-                    numberOtvet = numberValueOne - numberValueTwo;
-                    textBox2.Text = numberOtvet.ToString();
-                    break;
-                case "button3":
-                    numberValueOne = Convert.ToDouble(Value1.Text);
-                    numberValueTwo = Convert.ToDouble(Value2.Text);
-                    numberOtvet = numberValueTwo * numberValueOne;
-                    textBox2.Text = numberOtvet.ToString();
-                    break;
-                case "button4":
-                    numberValueOne = Convert.ToDouble(Value1.Text);
-                    numberValueTwo = Convert.ToDouble(Value2.Text);
-                    numberOtvet = numberOtvet = numberValueOne / numberValueTwo;
-                    textBox2.Text = numberOtvet.ToString();
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+            double numberValueOne = Convert.ToDouble(Value1.Text);
+            double numberValueTwo = Convert.ToDouble(Value2.Text);
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalc(((Button)sender).Name);
+            double result = calculator.Calculate(numberValueOne, numberValueTwo);
+            this.textBox2.Text = result.ToString();
         }
 
+        private void ButtonClickForSqrtAndPow(object sender, EventArgs e)
+        {
+            double numberValueOne = Convert.ToDouble(Value1.Text);
+            InterfaceForPowAndSQRT calculator = FactoryForSqrtAndPow.CreateFac(((Button)sender).Name);
+            double result = calculator.forSqrtAndPow(numberValueOne);
+            this.textBox2.Text = result.ToString();
+        }
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
 
         }
