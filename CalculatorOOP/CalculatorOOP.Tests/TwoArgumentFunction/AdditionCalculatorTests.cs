@@ -8,8 +8,8 @@ namespace CalculatorOOP.Tests
         [Test]
         public void CalculateTest() {
             var calculator = new AdditionCalculator();
-            var actualReuslt = calculator.Calculate(3, 4);
-            Assert.AreEqual(7, actualReuslt);
+            var actualResult = calculator.Calculate(3, 4);
+            Assert.AreEqual(7, actualResult);
         }
     }
 }

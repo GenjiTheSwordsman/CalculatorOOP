@@ -3,14 +3,14 @@
 namespace CalculatorOOP.Tests
 {
     [TestFixture]
-    class DivisinonCalculatorTests
+    class DivisionCalculatorTests
     {
         [Test]
         public void CalculateTest()
         {
             var calculator = new DivisionCalculator();
-            var actualReuslt = calculator.Calculate(5, 4);
-            Assert.AreEqual(1, actualReuslt);
+            var actualResult = calculator.Calculate(5, 4);
+            Assert.AreEqual(1, actualResult);
         }
     }
 }

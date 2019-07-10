@@ -13,7 +13,7 @@ namespace CalculatorOOP
                 case "button2":
                     return new DivisionCalculator();
                 case "button3":
-                    return new MultiplayCalculator();
+                    return new MultiplyCalculator();
                 case "button4":
                     return new SubtractionCalculator();
                 case "button7":
