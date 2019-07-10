@@ -21,7 +21,7 @@ namespace CalculatorOOP
                 case "button8":
                     return new MaxCalculate();
                 case "button9":
-                    return new MiddleArithmetic();
+                    return new MiddleArithmeticCalculate();
                 case "button10":
                     return new MiddleGeometricCalculate();
                 default:

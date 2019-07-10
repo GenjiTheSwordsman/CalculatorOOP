@@ -1,6 +1,6 @@
 ﻿namespace CalculatorOOP 
 {
-    public class MiddleArithmetic : ITwoArgumentsCalculator
+    public class MiddleArithmeticCalculate : ITwoArgumentsCalculator
     {
         public double Calculate(double ArOne, double ArTwo)
         {
