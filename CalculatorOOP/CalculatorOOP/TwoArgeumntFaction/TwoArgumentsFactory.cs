@@ -16,6 +16,8 @@ namespace CalculatorOOP
                     return new MultiplayCalculator();
                 case "button4":
                     return new SubtractionCalculator();
+                case "button7":
+                    return new MinCalculate();
                 default:
                     throw new Exception("Неизвестная операция");
             }

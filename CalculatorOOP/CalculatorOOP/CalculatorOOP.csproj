@@ -58,6 +58,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="TwoArgeumntFaction\MinCalculate.cs" />
     <Compile Include="TwoArgeumntFaction\MultiplayCalculator.cs" />
     <Compile Include="OneArgumentFuction\OneArgumentCalculate.cs" />
     <Compile Include="Program.cs" />
