@@ -18,6 +18,8 @@ namespace CalculatorOOP
                     return new SubtractionCalculator();
                 case "button7":
                     return new MinCalculate();
+                case "button8":
+                    return new MaxCalculate();
                 default:
                     throw new Exception("Неизвестная операция");
             }
