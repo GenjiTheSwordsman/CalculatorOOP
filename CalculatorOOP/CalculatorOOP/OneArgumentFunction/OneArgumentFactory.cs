@@ -28,6 +28,22 @@ namespace CalculatorOOP
                     return new ArctanCalculate();
                 case "button18":
                     return new OneDivArgCalculate();
+                case "button19":
+                    return new ExponentialCalculate();
+                case "button20":
+                    return new LogarithmCalculate();
+                case "button21":
+                    return new LogarithmToTheBaseTenCalculate();
+                case "button22":
+                    return new NaturalLogarithmCalculate();
+                case "button23":
+                    return new ModuleNumberCalculate();
+                case "button24":
+                    return new NegativeNumberCalculate();
+                case "button25":
+                    return new TwoPowerNumberCalculate();
+                case "button26":
+                    return new TenPowerNumberCalculate();
                 default:
                     throw new Exception("Неизвестная операция");
             }

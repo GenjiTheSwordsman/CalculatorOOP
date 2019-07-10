@@ -51,9 +51,17 @@
     <Compile Include="OneArgumentFunction\ArctanCalculate.cs" />
     <Compile Include="OneArgumentFunction\CosCalculate.cs" />
     <Compile Include="OneArgumentFunction\CtanCalculate.cs" />
+    <Compile Include="OneArgumentFunction\ExponentialCalculate.cs" />
+    <Compile Include="OneArgumentFunction\LogarithmCalculate.cs" />
+    <Compile Include="OneArgumentFunction\LogarithmToTheBaseTenCalculate.cs" />
+    <Compile Include="OneArgumentFunction\ModuleNumberCalculate.cs" />
+    <Compile Include="OneArgumentFunction\NaturalLogarithmCalculate.cs" />
+    <Compile Include="OneArgumentFunction\NegativeNumberCalculate.cs" />
     <Compile Include="OneArgumentFunction\OneDivArgCalculate.cs" />
     <Compile Include="OneArgumentFunction\SinCalculate.cs" />
     <Compile Include="OneArgumentFunction\TanCalculate.cs" />
+    <Compile Include="OneArgumentFunction\TenPowerNumberCalculate.cs" />
+    <Compile Include="OneArgumentFunction\TwoPowerNumberCalculate.cs" />
     <Compile Include="TwoArgumentFunction\MiddleGeometricCalculate.cs" />
     <Compile Include="TwoArgumentFunction\ITwoArgumentsCalculator.cs" />
     <Compile Include="OneArgumentFunction\OneArgumentFactory.cs" />
