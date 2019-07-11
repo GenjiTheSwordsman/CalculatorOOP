@@ -5,6 +5,7 @@ namespace CalculatorOOP.Tests
     [TestFixture]
     class AdditionCalculatorTests
     {
+        [Test]
         public void CalculateTest() {
             var calculator = new AdditionCalculator();
             var actualResult = calculator.Calculate(3, 4);
