@@ -59,6 +59,7 @@
     <Compile Include="OneArgumentFunction\ModuleNumberCalculateTests.cs" />
     <Compile Include="OneArgumentFunction\NaturalLogarithmCalculateTests.cs" />
     <Compile Include="OneArgumentFunction\NegativeNumberCalculateTests.cs" />
+    <Compile Include="OneArgumentFunction\OneArgumentFactoryTests.cs" />
     <Compile Include="OneArgumentFunction\OneDivArgCalculateTests.cs" />
     <Compile Include="OneArgumentFunction\PowTests.cs" />
     <Compile Include="OneArgumentFunction\SinCalculateTests.cs" />

@@ -2,7 +2,7 @@
 
 namespace CalculatorOOP
 {
-    public static class FactoryForSqrtAndPow
+    public static class OneArgumentFactory
     {
         public static INterfaceForPowAndSQRT CreateFac(string name)
         {
