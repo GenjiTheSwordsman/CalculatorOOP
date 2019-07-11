@@ -72,7 +72,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.ButtonClick);
+            this.button1.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // button2
             // 
@@ -82,7 +82,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.ButtonClick);
+            this.button2.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // button3
             // 
@@ -92,7 +92,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "*";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.ButtonClick);
+            this.button3.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // button4
             // 
@@ -102,7 +102,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.ButtonClick);
+            this.button4.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // Value1
             // 
@@ -174,9 +174,9 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 11;
-            this.button5.Text = "Pow";
+            this.button5.Text = "x^2";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button5.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button6
             // 
@@ -186,7 +186,7 @@
             this.button6.TabIndex = 12;
             this.button6.Text = "Sqrt";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button6.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button7
             // 
@@ -196,7 +196,7 @@
             this.button7.TabIndex = 13;
             this.button7.Text = "Min";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.ButtonClick);
+            this.button7.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // button8
             // 
@@ -206,7 +206,7 @@
             this.button8.TabIndex = 14;
             this.button8.Text = "Max";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.ButtonClick);
+            this.button8.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // button9
             // 
@@ -216,7 +216,7 @@
             this.button9.TabIndex = 15;
             this.button9.Text = "MidAr";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.ButtonClick);
+            this.button9.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // button10
             // 
@@ -226,7 +226,7 @@
             this.button10.TabIndex = 16;
             this.button10.Text = "MidGeo";
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.ButtonClick);
+            this.button10.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // button11
             // 
@@ -236,7 +236,7 @@
             this.button11.TabIndex = 17;
             this.button11.Text = "Sin";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button11.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button12
             // 
@@ -246,7 +246,7 @@
             this.button12.TabIndex = 18;
             this.button12.Text = "Cos";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button12.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button13
             // 
@@ -256,7 +256,7 @@
             this.button13.TabIndex = 19;
             this.button13.Text = "Tan";
             this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button13.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button14
             // 
@@ -266,7 +266,7 @@
             this.button14.TabIndex = 20;
             this.button14.Text = "Arcsin";
             this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button14.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button15
             // 
@@ -276,7 +276,7 @@
             this.button15.TabIndex = 21;
             this.button15.Text = "Arccos";
             this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button15.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button16
             // 
@@ -286,7 +286,7 @@
             this.button16.TabIndex = 22;
             this.button16.Text = "Ctan";
             this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button16.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button17
             // 
@@ -296,7 +296,7 @@
             this.button17.TabIndex = 23;
             this.button17.Text = "Arctan";
             this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button17.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button18
             // 
@@ -306,7 +306,7 @@
             this.button18.TabIndex = 24;
             this.button18.Text = "1/x";
             this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button18.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button19
             // 
@@ -316,7 +316,7 @@
             this.button19.TabIndex = 25;
             this.button19.Text = "Exp";
             this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button19.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button20
             // 
@@ -326,7 +326,7 @@
             this.button20.TabIndex = 26;
             this.button20.Text = "Log2";
             this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button20.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button21
             // 
@@ -336,7 +336,7 @@
             this.button21.TabIndex = 27;
             this.button21.Text = "Log10";
             this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button21.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button22
             // 
@@ -346,7 +346,7 @@
             this.button22.TabIndex = 28;
             this.button22.Text = "Ln";
             this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button22.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button23
             // 
@@ -356,7 +356,7 @@
             this.button23.TabIndex = 29;
             this.button23.Text = "|x|";
             this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button23.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button24
             // 
@@ -366,7 +366,7 @@
             this.button24.TabIndex = 30;
             this.button24.Text = "-x";
             this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button24.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button25
             // 
@@ -376,7 +376,7 @@
             this.button25.TabIndex = 31;
             this.button25.Text = "2^x";
             this.button25.UseVisualStyleBackColor = true;
-            this.button25.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button25.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // button26
             // 
@@ -386,7 +386,7 @@
             this.button26.TabIndex = 32;
             this.button26.Text = "10^x";
             this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.ButtonClickForSqrtAndPow);
+            this.button26.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // Form1
             // 

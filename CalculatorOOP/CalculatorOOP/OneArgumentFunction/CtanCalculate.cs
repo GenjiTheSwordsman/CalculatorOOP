@@ -4,7 +4,7 @@ namespace CalculatorOOP
 {
     public class CtanCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double number)
+        public double OneArgCalculate(double number)
         {
             return 1/Math.Tan(number);
         }

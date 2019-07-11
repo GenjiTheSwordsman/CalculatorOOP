@@ -10,7 +10,7 @@ namespace CalculatorOOP.Tests
         public void NegativeCalculateTest()
         {
             var calculator = new ArccosCalculate();
-            Assert.Throws<System.Exception>(() => calculator.Calculte(-4));
+            Assert.Throws<System.Exception>(() => calculator.OneArgCalculate(-4));
         }
 
     }

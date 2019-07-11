@@ -4,9 +4,9 @@ namespace CalculatorOOP
 {
     public class ArcsinCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double number)
+        public double OneArgCalculate(double number)
         {
-            if (number < (-Math.PI / 2) || number > (Math.PI/2))
+            if (number < -1 || number > 1)
             {
                 throw new Exception("Аркcинус не вычисляется");
             }

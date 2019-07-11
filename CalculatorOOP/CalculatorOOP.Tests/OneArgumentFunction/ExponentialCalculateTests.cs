@@ -8,10 +8,10 @@ namespace CalculatorOOP.Tests
         [TestCase(1, 2.71)]
         [TestCase(0, 1)]
         [TestCase(2, 7.38)]
-        public void CalculateTest(double ArOne, double expected)
+        public void CalculateTest(double arOne, double expected)
         {
             var calculator = new ExponentialCalculate();
-            var actualResult = calculator.Calculte(ArOne);
+            var actualResult = calculator.OneArgCalculate(arOne);
             Assert.AreEqual(expected, actualResult, 0.01);
         }
     }

@@ -7,8 +7,8 @@ namespace CalculatorOOP.Tests
 
     class OneArgumentFactoryTests
     {
-        [TestCase("button5", typeof(Pow))]
-        [TestCase("button6", typeof(SQRT))]
+        [TestCase("button5", typeof(PowCalculate))]
+        [TestCase("button6", typeof(SqrtCalculate))]
         [TestCase("button11", typeof(SinCalculate))]
         [TestCase("button12", typeof(CosCalculate))]
         [TestCase("button13", typeof(TanCalculate))]

@@ -3,7 +3,7 @@ namespace CalculatorOOP
 {
     public class ModuleNumberCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double number)
+        public double OneArgCalculate(double number)
         {
             return Math.Abs(number);
         }

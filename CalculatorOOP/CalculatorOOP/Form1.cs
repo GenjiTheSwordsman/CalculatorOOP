@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CalculatorOOP
@@ -32,14 +25,14 @@ namespace CalculatorOOP
 
         }
         
-        private void ButtonClick(object sender, EventArgs e)
+        private void ButtonClickForTwoArgumentsFunctions(object sender, EventArgs e)
         {
             try
             {
                 double numberValueOne = Convert.ToDouble(Value1.Text);
                 double numberValueTwo = Convert.ToDouble(Value2.Text);
-                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalc(((Button)sender).Name);
-                double result = calculator.Calculate(numberValueOne, numberValueTwo);
+                ITwoArgumentsCalculate calculator = TwoArgumentsFactory.CreateCalc(((Button)sender).Name);
+                double result = calculator.TwoArgCalculate(numberValueOne, numberValueTwo);
                 this.textBox2.Text = result.ToString();
             }
             catch
@@ -48,13 +41,13 @@ namespace CalculatorOOP
             }
         }
 
-        private void ButtonClickForSqrtAndPow(object sender, EventArgs e)
+        private void ButtonClickForOneArgumentFunctions(object sender, EventArgs e)
         {
             try
             {
                 double numberValueOne = Convert.ToDouble(Value1.Text);
                 IOneArgumentCalculate calculator = OneArgumentFactory.CreateFac(((Button)sender).Name);
-                double result = calculator.Calculte(numberValueOne);
+                double result = calculator.OneArgCalculate(numberValueOne);
                 this.textBox2.Text = result.ToString();
             }
             catch

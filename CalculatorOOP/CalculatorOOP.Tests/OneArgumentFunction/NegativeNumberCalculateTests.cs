@@ -8,10 +8,10 @@ namespace CalculatorOOP.Tests
         [TestCase(3, -3)]
         [TestCase(-2, 2)]
         [TestCase(0.5, -0.5)]
-        public void CalculateTest(double ArOne, double expected)
+        public void CalculateTest(double arOne, double expected)
         {
             var calculator = new NegativeNumberCalculate();
-            var actualResult = calculator.Calculte(ArOne);
+            var actualResult = calculator.OneArgCalculate(arOne);
             Assert.AreEqual(expected, actualResult);
         }
     }

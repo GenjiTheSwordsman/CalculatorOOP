@@ -4,11 +4,11 @@ namespace CalculatorOOP
 {
     public class ArccosCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double number)
+        public double OneArgCalculate(double number)
         {
-            if (number < 0 || number > Math.PI)
+            if (number < -1 || number > 1)
             {
-                throw new Exception("Аркосинус не вычисляется");
+                throw new Exception("Арккосинус не вычисляется");
             }
             else
             {

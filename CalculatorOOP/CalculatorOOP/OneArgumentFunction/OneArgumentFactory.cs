@@ -4,14 +4,19 @@ namespace CalculatorOOP
 {
     public static class OneArgumentFactory
     {
+        /// <summary>
+        /// trasfer the string argument in factory of one argument calculators
+        /// </summary>
+        /// <param name="name"> "name" is argument of button </param>
+        /// <returns></returns>
         public static IOneArgumentCalculate CreateFac(string name)
         {
             switch (name)
             {
                 case "button5":
-                    return new Pow();
+                    return new PowCalculate();
                 case "button6":
-                    return new SQRT();
+                    return new SqrtCalculate();
                 case "button11":
                     return new SinCalculate();
                 case "button12":

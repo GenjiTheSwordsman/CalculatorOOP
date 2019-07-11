@@ -3,7 +3,7 @@ namespace CalculatorOOP
 {
     public class LogarithmToTheBaseTenCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double number)
+        public double OneArgCalculate(double number)
         {
             if (number <= 0)
             {

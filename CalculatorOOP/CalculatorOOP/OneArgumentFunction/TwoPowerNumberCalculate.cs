@@ -3,7 +3,7 @@ namespace CalculatorOOP
 {
     public class TwoPowerNumberCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double number)
+        public double OneArgCalculate(double number)
         {
             return Math.Pow(2,number);
         }

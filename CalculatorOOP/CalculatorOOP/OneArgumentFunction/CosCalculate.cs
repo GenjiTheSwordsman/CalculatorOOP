@@ -4,7 +4,7 @@ namespace CalculatorOOP
 {
     public class CosCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double number)
+        public double OneArgCalculate(double number)
         {
             return Math.Cos(number);
         }

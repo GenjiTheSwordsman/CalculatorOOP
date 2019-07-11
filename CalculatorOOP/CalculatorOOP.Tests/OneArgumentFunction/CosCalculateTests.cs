@@ -8,10 +8,10 @@ namespace CalculatorOOP.Tests
         [TestCase(0, 1)]
         [TestCase(1, 0.54)]
         [TestCase(-2, -0.42)]
-        public void CalculateTest(double ArOne, double expected)
+        public void CalculateTest(double arOne, double expected)
         {
             var calculator = new CosCalculate();
-            var actualResult = calculator.Calculte(ArOne);
+            var actualResult = calculator.OneArgCalculate(arOne);
             Assert.AreEqual(expected, actualResult, 0.01);
         }
     }

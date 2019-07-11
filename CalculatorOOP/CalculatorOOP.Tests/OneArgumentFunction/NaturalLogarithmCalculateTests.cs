@@ -9,10 +9,10 @@ namespace CalculatorOOP.Tests
         [TestCase(10, 2.3)]
         [TestCase(5, 1.6)]
         [TestCase(1, 0)]
-        public void CalculateTest(double ArOne, double expected)
+        public void CalculateTest(double arOne, double expected)
         {
             var calculator = new NaturalLogarithmCalculate();
-            var actualResult = calculator.Calculte(ArOne);
+            var actualResult = calculator.OneArgCalculate(arOne);
             Assert.AreEqual(expected, actualResult, 0.01);
         }
     }
