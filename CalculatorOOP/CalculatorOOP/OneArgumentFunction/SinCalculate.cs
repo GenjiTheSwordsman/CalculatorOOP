@@ -4,9 +4,9 @@ namespace CalculatorOOP
 {
     public class SinCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Sin(Number);
+            return Math.Sin(number);
         }
     }
 }

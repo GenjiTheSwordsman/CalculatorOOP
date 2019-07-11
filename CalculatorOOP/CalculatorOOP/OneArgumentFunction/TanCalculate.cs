@@ -4,9 +4,9 @@ namespace CalculatorOOP
 {
     public class TanCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Tan(Number);
+            return Math.Tan(number);
         }
     }
 }

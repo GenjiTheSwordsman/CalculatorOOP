@@ -8,8 +8,8 @@ namespace CalculatorOOP.Tests
         [Test]
         public void NegativeCalculateTest()
         {
-            var calculator = new ArcsinCalculate();
-            Assert.Throws<System.Exception>(() => calculator.Calculte(0));
+            var calculator = new SubtractionCalculator();
+            Assert.Throws<System.Exception>(() => calculator.Calculate(1,0));
         }
 
     }

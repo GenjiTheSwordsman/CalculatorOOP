@@ -4,9 +4,16 @@ namespace CalculatorOOP
 {
     public class ArccosCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Acos(Number);
+            if (number < 0 || number > Math.PI)
+            {
+                throw new Exception("Аркосинус не вычисляется");
+            }
+            else
+            {
+                return Math.Acos(number);
+            }
         }
     }
 }

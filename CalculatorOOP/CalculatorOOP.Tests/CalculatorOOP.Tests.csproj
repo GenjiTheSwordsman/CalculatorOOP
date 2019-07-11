@@ -59,10 +59,8 @@
     <Compile Include="OneArgumentFunction\ImpossibleLogarithm.cs" />
     <Compile Include="OneArgumentFunction\ImpossibleArcSinCalculate.cs" />
     <Compile Include="OneArgumentFunction\ImpossibleArcTanCalculate.cs" />
-    <Compile Include="OneArgumentFunction\ImpossibleCosCalculate.cs" />
     <Compile Include="OneArgumentFunction\ImpossibleLogarithmToTheBaseTenCalculate.cs" />
     <Compile Include="OneArgumentFunction\ImpossibleNaturalLogarithm.cs" />
-    <Compile Include="OneArgumentFunction\ImpossibleSinCalculate.cs" />
     <Compile Include="OneArgumentFunction\LogarithmCalculateTests.cs" />
     <Compile Include="OneArgumentFunction\LogarithmToTheBaseTenCalculateTests.cs" />
     <Compile Include="OneArgumentFunction\ModuleNumberCalculateTests.cs" />

@@ -3,9 +3,9 @@ namespace CalculatorOOP
 {
     public class NegativeNumberCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return (-Number);
+            return (-number);
         }
     }
 }

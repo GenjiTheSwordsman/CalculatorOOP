@@ -3,9 +3,9 @@ namespace CalculatorOOP
 {
     public class TenPowerNumberCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Pow(10,Number);
+            return Math.Pow(10,number);
         }
     }
 }

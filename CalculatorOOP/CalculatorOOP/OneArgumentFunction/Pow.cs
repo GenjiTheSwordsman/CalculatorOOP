@@ -2,9 +2,9 @@
 {
     public class Pow:IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Number * Number;
+            return number * number;
         }
     }
 }

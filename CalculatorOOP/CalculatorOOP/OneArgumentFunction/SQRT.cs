@@ -4,16 +4,15 @@ namespace CalculatorOOP
 {
     public class SQRT : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            try
-            {
-                double y = Math.Sqrt(Number);
-                return y;
-            }
-            catch
-            {
+            if(number < 0)
+            { 
                 throw new Exception("Аргумент меньше нуля");
+            }
+            else
+            {
+                return Math.Sqrt(number);
             }
         }
     }

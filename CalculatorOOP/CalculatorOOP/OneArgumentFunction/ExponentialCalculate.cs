@@ -3,9 +3,9 @@ namespace CalculatorOOP
 {
     public class ExponentialCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Exp(Number);
+            return Math.Exp(number);
         }
     }
 }

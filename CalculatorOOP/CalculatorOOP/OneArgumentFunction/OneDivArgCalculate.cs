@@ -6,7 +6,14 @@ namespace CalculatorOOP
     {
         public double Calculte(double number)
         {
-            return 1 / number;
+            if (number == 0)
+            {
+                throw new Exception("Число не должно быть равно нулю");
+            }
+            else
+            {
+                return 1 / number;
+            }
         }
     }
 }

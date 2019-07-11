@@ -3,9 +3,16 @@ namespace CalculatorOOP
 {
     public class LogarithmCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Log(Number,2) ;
+            if (number <= 0)
+            {
+                throw new Exception("Число должно быть больше нуля");
+            }
+            else
+            {
+                return Math.Log(number, 2);
+            }
         }
     }
 }

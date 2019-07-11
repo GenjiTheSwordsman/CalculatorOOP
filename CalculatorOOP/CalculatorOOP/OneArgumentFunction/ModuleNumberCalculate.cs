@@ -3,9 +3,9 @@ namespace CalculatorOOP
 {
     public class ModuleNumberCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Abs(Number);
+            return Math.Abs(number);
         }
     }
 }

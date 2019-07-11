@@ -34,19 +34,33 @@ namespace CalculatorOOP
         
         private void ButtonClick(object sender, EventArgs e)
         {
-            double numberValueOne = Convert.ToDouble(Value1.Text);
-            double numberValueTwo = Convert.ToDouble(Value2.Text);
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalc(((Button)sender).Name);
-            double result = calculator.Calculate(numberValueOne, numberValueTwo);
-            this.textBox2.Text = result.ToString();
+            try
+            {
+                double numberValueOne = Convert.ToDouble(Value1.Text);
+                double numberValueTwo = Convert.ToDouble(Value2.Text);
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalc(((Button)sender).Name);
+                double result = calculator.Calculate(numberValueOne, numberValueTwo);
+                this.textBox2.Text = result.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка");
+            }
         }
 
         private void ButtonClickForSqrtAndPow(object sender, EventArgs e)
         {
-            double numberValueOne = Convert.ToDouble(Value1.Text);
-            IOneArgumentCalculate calculator = OneArgumentFactory.CreateFac(((Button)sender).Name);
-            double result = calculator.Calculte(numberValueOne);
-            this.textBox2.Text = result.ToString();
+            try
+            {
+                double numberValueOne = Convert.ToDouble(Value1.Text);
+                IOneArgumentCalculate calculator = OneArgumentFactory.CreateFac(((Button)sender).Name);
+                double result = calculator.Calculte(numberValueOne);
+                this.textBox2.Text = result.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка");
+            }
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
         {

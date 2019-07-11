@@ -2,7 +2,7 @@
 {
     public interface IOneArgumentCalculate
     {
-        double Calculte(double Number);
+        double Calculte(double number);
 
     }
 }

@@ -3,9 +3,16 @@ namespace CalculatorOOP
 {
     public class LogarithmToTheBaseTenCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return Math.Log10(Number);
+            if (number <= 0)
+            {
+                throw new Exception("Число должно быть больше нуля");
+            }
+            else
+            {
+                return Math.Log10(number);
+            }
         }
     }
 }
