@@ -2,7 +2,7 @@
 
 namespace CalculatorOOP
 {
-    public class CosCalculate : INterfaceForPowAndSQRT
+    public class CosCalculate : IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {

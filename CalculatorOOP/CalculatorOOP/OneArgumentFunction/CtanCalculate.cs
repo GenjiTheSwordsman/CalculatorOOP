@@ -2,7 +2,7 @@
 
 namespace CalculatorOOP
 {
-    public class CtanCalculate : INterfaceForPowAndSQRT
+    public class CtanCalculate : IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {

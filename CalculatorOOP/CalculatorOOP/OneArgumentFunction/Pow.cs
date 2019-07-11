@@ -1,6 +1,6 @@
 ﻿namespace CalculatorOOP
 {
-    public class Pow:INterfaceForPowAndSQRT
+    public class Pow:IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {

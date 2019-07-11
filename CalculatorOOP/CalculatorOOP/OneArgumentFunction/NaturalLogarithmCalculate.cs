@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CalculatorOOP
 {
-    public class NaturalLogarithmCalculate : INterfaceForPowAndSQRT
+    public class NaturalLogarithmCalculate : IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {

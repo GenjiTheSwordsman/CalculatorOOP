@@ -2,11 +2,11 @@
 
 namespace CalculatorOOP
 {
-    public class OneDivArgCalculate : INterfaceForPowAndSQRT
+    public class OneDivArgCalculate : IOneArgumentCalculate
     {
-        public double Calculte(double Number)
+        public double Calculte(double number)
         {
-            return 1 / Number;
+            return 1 / number;
         }
     }
 }

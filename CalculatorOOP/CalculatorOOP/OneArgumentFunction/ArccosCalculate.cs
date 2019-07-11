@@ -2,7 +2,7 @@
 
 namespace CalculatorOOP
 {
-    public class ArccosCalculate : INterfaceForPowAndSQRT
+    public class ArccosCalculate : IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {

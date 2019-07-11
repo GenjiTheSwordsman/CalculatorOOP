@@ -4,7 +4,7 @@ namespace CalculatorOOP
 {
     public static class OneArgumentFactory
     {
-        public static INterfaceForPowAndSQRT CreateFac(string name)
+        public static IOneArgumentCalculate CreateFac(string name)
         {
             switch (name)
             {

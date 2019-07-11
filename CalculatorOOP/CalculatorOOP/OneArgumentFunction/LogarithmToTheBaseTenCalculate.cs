@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CalculatorOOP
 {
-    public class LogarithmToTheBaseTenCalculate : INterfaceForPowAndSQRT
+    public class LogarithmToTheBaseTenCalculate : IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {

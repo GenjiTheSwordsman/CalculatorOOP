@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CalculatorOOP
 {
-    public class TenPowerNumberCalculate : INterfaceForPowAndSQRT
+    public class TenPowerNumberCalculate : IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {

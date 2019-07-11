@@ -2,11 +2,19 @@
 
 namespace CalculatorOOP
 {
-    public class SQRT : INterfaceForPowAndSQRT
+    public class SQRT : IOneArgumentCalculate
     {
         public double Calculte(double Number)
         {
-            return Math.Sqrt(Number);
+            try
+            {
+                double y = Math.Sqrt(Number);
+                return y;
+            }
+            catch
+            {
+                throw new Exception("Аргумент меньше нуля");
+            }
         }
     }
 }

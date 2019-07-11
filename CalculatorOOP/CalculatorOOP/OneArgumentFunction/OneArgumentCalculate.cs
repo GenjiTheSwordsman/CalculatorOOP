@@ -1,7 +1,8 @@
 ﻿namespace CalculatorOOP
 {
-    public interface INterfaceForPowAndSQRT
+    public interface IOneArgumentCalculate
     {
         double Calculte(double Number);
+
     }
 }
