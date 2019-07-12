@@ -4,7 +4,12 @@
     {
         public double OneArgCalculate(double number)
         {
-            return (-number);
+            /// <summary>
+            /// this function calculate negaive of first argument 
+            /// </summary>
+            /// <param name="number"></param>
+            /// <returns></returns>
+            return -number;
         }
     }
 }

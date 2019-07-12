@@ -29,10 +29,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.AdditionCalculate = new System.Windows.Forms.Button();
+            this.SubstractionCalculate = new System.Windows.Forms.Button();
+            this.MultiplyCalculate = new System.Windows.Forms.Button();
+            this.DivisionCalculate = new System.Windows.Forms.Button();
             this.Value1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Value2 = new System.Windows.Forms.TextBox();
@@ -40,69 +40,69 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.PowCalculate = new System.Windows.Forms.Button();
+            this.SqrtCalculate = new System.Windows.Forms.Button();
+            this.MinCalculate = new System.Windows.Forms.Button();
+            this.MaxCalculate = new System.Windows.Forms.Button();
+            this.MiddleArithmeticCalculate = new System.Windows.Forms.Button();
+            this.MidGeometricCalculate = new System.Windows.Forms.Button();
+            this.SinCalculate = new System.Windows.Forms.Button();
+            this.CosCalculate = new System.Windows.Forms.Button();
+            this.TanCalculate = new System.Windows.Forms.Button();
+            this.ArcsinCalculate = new System.Windows.Forms.Button();
+            this.ArccosCalculate = new System.Windows.Forms.Button();
+            this.CtanCalculate = new System.Windows.Forms.Button();
+            this.ArctanCalculate = new System.Windows.Forms.Button();
+            this.OneDivArgCalculate = new System.Windows.Forms.Button();
+            this.ExponentialCalculate = new System.Windows.Forms.Button();
+            this.LogarithmCalculate = new System.Windows.Forms.Button();
+            this.LogarithmToTheBaseTenCalculate = new System.Windows.Forms.Button();
+            this.NaturaleLogarithmCalculate = new System.Windows.Forms.Button();
+            this.ModuleNumberCalculate = new System.Windows.Forms.Button();
+            this.NegativeNumberCalculate = new System.Windows.Forms.Button();
+            this.TwoPowerNumberCalculate = new System.Windows.Forms.Button();
+            this.TenPowerNumberCalculate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // AdditionCalculate
             // 
-            this.button1.Location = new System.Drawing.Point(93, 111);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.AdditionCalculate.Location = new System.Drawing.Point(93, 111);
+            this.AdditionCalculate.Name = "AdditionCalculate";
+            this.AdditionCalculate.Size = new System.Drawing.Size(75, 23);
+            this.AdditionCalculate.TabIndex = 0;
+            this.AdditionCalculate.Text = "+";
+            this.AdditionCalculate.UseVisualStyleBackColor = true;
+            this.AdditionCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
-            // button2
+            // SubstractionCalculate
             // 
-            this.button2.Location = new System.Drawing.Point(93, 140);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.SubstractionCalculate.Location = new System.Drawing.Point(93, 140);
+            this.SubstractionCalculate.Name = "SubstractionCalculate";
+            this.SubstractionCalculate.Size = new System.Drawing.Size(75, 23);
+            this.SubstractionCalculate.TabIndex = 1;
+            this.SubstractionCalculate.Text = "-";
+            this.SubstractionCalculate.UseVisualStyleBackColor = true;
+            this.SubstractionCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
-            // button3
+            // MultiplyCalculate
             // 
-            this.button3.Location = new System.Drawing.Point(174, 111);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "*";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.MultiplyCalculate.Location = new System.Drawing.Point(174, 111);
+            this.MultiplyCalculate.Name = "MultiplyCalculate";
+            this.MultiplyCalculate.Size = new System.Drawing.Size(75, 23);
+            this.MultiplyCalculate.TabIndex = 2;
+            this.MultiplyCalculate.Text = "*";
+            this.MultiplyCalculate.UseVisualStyleBackColor = true;
+            this.MultiplyCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
-            // button4
+            // DivisionCalculate
             // 
-            this.button4.Location = new System.Drawing.Point(174, 140);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.DivisionCalculate.Location = new System.Drawing.Point(174, 140);
+            this.DivisionCalculate.Name = "DivisionCalculate";
+            this.DivisionCalculate.Size = new System.Drawing.Size(75, 23);
+            this.DivisionCalculate.TabIndex = 3;
+            this.DivisionCalculate.Text = "/";
+            this.DivisionCalculate.UseVisualStyleBackColor = true;
+            this.DivisionCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
             // Value1
             // 
@@ -168,253 +168,253 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Ответ";
             // 
-            // button5
+            // PowCalculate
             // 
-            this.button5.Location = new System.Drawing.Point(255, 111);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "x^2";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.PowCalculate.Location = new System.Drawing.Point(255, 111);
+            this.PowCalculate.Name = "PowCalculate";
+            this.PowCalculate.Size = new System.Drawing.Size(75, 23);
+            this.PowCalculate.TabIndex = 11;
+            this.PowCalculate.Text = "x^2";
+            this.PowCalculate.UseVisualStyleBackColor = true;
+            this.PowCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button6
+            // SqrtCalculate
             // 
-            this.button6.Location = new System.Drawing.Point(255, 140);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 12;
-            this.button6.Text = "Sqrt";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.SqrtCalculate.Location = new System.Drawing.Point(255, 140);
+            this.SqrtCalculate.Name = "SqrtCalculate";
+            this.SqrtCalculate.Size = new System.Drawing.Size(75, 23);
+            this.SqrtCalculate.TabIndex = 12;
+            this.SqrtCalculate.Text = "Sqrt";
+            this.SqrtCalculate.UseVisualStyleBackColor = true;
+            this.SqrtCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button7
+            // MinCalculate
             // 
-            this.button7.Location = new System.Drawing.Point(336, 111);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 13;
-            this.button7.Text = "Min";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.MinCalculate.Location = new System.Drawing.Point(336, 111);
+            this.MinCalculate.Name = "MinCalculate";
+            this.MinCalculate.Size = new System.Drawing.Size(75, 23);
+            this.MinCalculate.TabIndex = 13;
+            this.MinCalculate.Text = "Min";
+            this.MinCalculate.UseVisualStyleBackColor = true;
+            this.MinCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
-            // button8
+            // MaxCalculate
             // 
-            this.button8.Location = new System.Drawing.Point(336, 140);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 14;
-            this.button8.Text = "Max";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.MaxCalculate.Location = new System.Drawing.Point(336, 140);
+            this.MaxCalculate.Name = "MaxCalculate";
+            this.MaxCalculate.Size = new System.Drawing.Size(75, 23);
+            this.MaxCalculate.TabIndex = 14;
+            this.MaxCalculate.Text = "Max";
+            this.MaxCalculate.UseVisualStyleBackColor = true;
+            this.MaxCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
-            // button9
+            // MiddleArithmeticCalculate
             // 
-            this.button9.Location = new System.Drawing.Point(255, 169);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 15;
-            this.button9.Text = "MidAr";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.MiddleArithmeticCalculate.Location = new System.Drawing.Point(255, 169);
+            this.MiddleArithmeticCalculate.Name = "MiddleArithmeticCalculate";
+            this.MiddleArithmeticCalculate.Size = new System.Drawing.Size(75, 23);
+            this.MiddleArithmeticCalculate.TabIndex = 15;
+            this.MiddleArithmeticCalculate.Text = "MidAr";
+            this.MiddleArithmeticCalculate.UseVisualStyleBackColor = true;
+            this.MiddleArithmeticCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
-            // button10
+            // MidGeometricCalculate
             // 
-            this.button10.Location = new System.Drawing.Point(336, 169);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 16;
-            this.button10.Text = "MidGeo";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
+            this.MidGeometricCalculate.Location = new System.Drawing.Point(336, 169);
+            this.MidGeometricCalculate.Name = "MidGeometricCalculate";
+            this.MidGeometricCalculate.Size = new System.Drawing.Size(75, 23);
+            this.MidGeometricCalculate.TabIndex = 16;
+            this.MidGeometricCalculate.Text = "MidGeo";
+            this.MidGeometricCalculate.UseVisualStyleBackColor = true;
+            this.MidGeometricCalculate.Click += new System.EventHandler(this.ButtonClickForTwoArgumentsFunctions);
             // 
-            // button11
+            // SinCalculate
             // 
-            this.button11.Location = new System.Drawing.Point(417, 111);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 17;
-            this.button11.Text = "Sin";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.SinCalculate.Location = new System.Drawing.Point(417, 111);
+            this.SinCalculate.Name = "SinCalculate";
+            this.SinCalculate.Size = new System.Drawing.Size(75, 23);
+            this.SinCalculate.TabIndex = 17;
+            this.SinCalculate.Text = "Sin";
+            this.SinCalculate.UseVisualStyleBackColor = true;
+            this.SinCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button12
+            // CosCalculate
             // 
-            this.button12.Location = new System.Drawing.Point(417, 140);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 18;
-            this.button12.Text = "Cos";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.CosCalculate.Location = new System.Drawing.Point(417, 140);
+            this.CosCalculate.Name = "CosCalculate";
+            this.CosCalculate.Size = new System.Drawing.Size(75, 23);
+            this.CosCalculate.TabIndex = 18;
+            this.CosCalculate.Text = "Cos";
+            this.CosCalculate.UseVisualStyleBackColor = true;
+            this.CosCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button13
+            // TanCalculate
             // 
-            this.button13.Location = new System.Drawing.Point(255, 198);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 19;
-            this.button13.Text = "Tan";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.TanCalculate.Location = new System.Drawing.Point(255, 198);
+            this.TanCalculate.Name = "TanCalculate";
+            this.TanCalculate.Size = new System.Drawing.Size(75, 23);
+            this.TanCalculate.TabIndex = 19;
+            this.TanCalculate.Text = "Tan";
+            this.TanCalculate.UseVisualStyleBackColor = true;
+            this.TanCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button14
+            // ArcsinCalculate
             // 
-            this.button14.Location = new System.Drawing.Point(255, 227);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 20;
-            this.button14.Text = "Arcsin";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.ArcsinCalculate.Location = new System.Drawing.Point(255, 227);
+            this.ArcsinCalculate.Name = "ArcsinCalculate";
+            this.ArcsinCalculate.Size = new System.Drawing.Size(75, 23);
+            this.ArcsinCalculate.TabIndex = 20;
+            this.ArcsinCalculate.Text = "Arcsin";
+            this.ArcsinCalculate.UseVisualStyleBackColor = true;
+            this.ArcsinCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button15
+            // ArccosCalculate
             // 
-            this.button15.Location = new System.Drawing.Point(255, 256);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 21;
-            this.button15.Text = "Arccos";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.ArccosCalculate.Location = new System.Drawing.Point(255, 256);
+            this.ArccosCalculate.Name = "ArccosCalculate";
+            this.ArccosCalculate.Size = new System.Drawing.Size(75, 23);
+            this.ArccosCalculate.TabIndex = 21;
+            this.ArccosCalculate.Text = "Arccos";
+            this.ArccosCalculate.UseVisualStyleBackColor = true;
+            this.ArccosCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button16
+            // CtanCalculate
             // 
-            this.button16.Location = new System.Drawing.Point(255, 285);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 22;
-            this.button16.Text = "Ctan";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.CtanCalculate.Location = new System.Drawing.Point(255, 285);
+            this.CtanCalculate.Name = "CtanCalculate";
+            this.CtanCalculate.Size = new System.Drawing.Size(75, 23);
+            this.CtanCalculate.TabIndex = 22;
+            this.CtanCalculate.Text = "Ctan";
+            this.CtanCalculate.UseVisualStyleBackColor = true;
+            this.CtanCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button17
+            // ArctanCalculate
             // 
-            this.button17.Location = new System.Drawing.Point(336, 198);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 23;
-            this.button17.Text = "Arctan";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.ArctanCalculate.Location = new System.Drawing.Point(336, 198);
+            this.ArctanCalculate.Name = "ArctanCalculate";
+            this.ArctanCalculate.Size = new System.Drawing.Size(75, 23);
+            this.ArctanCalculate.TabIndex = 23;
+            this.ArctanCalculate.Text = "Arctan";
+            this.ArctanCalculate.UseVisualStyleBackColor = true;
+            this.ArctanCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button18
+            // OneDivArgCalculate
             // 
-            this.button18.Location = new System.Drawing.Point(336, 227);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 24;
-            this.button18.Text = "1/x";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.OneDivArgCalculate.Location = new System.Drawing.Point(336, 227);
+            this.OneDivArgCalculate.Name = "OneDivArgCalculate";
+            this.OneDivArgCalculate.Size = new System.Drawing.Size(75, 23);
+            this.OneDivArgCalculate.TabIndex = 24;
+            this.OneDivArgCalculate.Text = "1/x";
+            this.OneDivArgCalculate.UseVisualStyleBackColor = true;
+            this.OneDivArgCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button19
+            // ExponentialCalculate
             // 
-            this.button19.Location = new System.Drawing.Point(336, 256);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 25;
-            this.button19.Text = "Exp";
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.ExponentialCalculate.Location = new System.Drawing.Point(336, 256);
+            this.ExponentialCalculate.Name = "ExponentialCalculate";
+            this.ExponentialCalculate.Size = new System.Drawing.Size(75, 23);
+            this.ExponentialCalculate.TabIndex = 25;
+            this.ExponentialCalculate.Text = "Exp";
+            this.ExponentialCalculate.UseVisualStyleBackColor = true;
+            this.ExponentialCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button20
+            // LogarithmCalculate
             // 
-            this.button20.Location = new System.Drawing.Point(336, 285);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 26;
-            this.button20.Text = "Log2";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.LogarithmCalculate.Location = new System.Drawing.Point(336, 285);
+            this.LogarithmCalculate.Name = "LogarithmCalculate";
+            this.LogarithmCalculate.Size = new System.Drawing.Size(75, 23);
+            this.LogarithmCalculate.TabIndex = 26;
+            this.LogarithmCalculate.Text = "Log2";
+            this.LogarithmCalculate.UseVisualStyleBackColor = true;
+            this.LogarithmCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button21
+            // LogarithmToTheBaseTenCalculate
             // 
-            this.button21.Location = new System.Drawing.Point(417, 169);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 27;
-            this.button21.Text = "Log10";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.LogarithmToTheBaseTenCalculate.Location = new System.Drawing.Point(417, 169);
+            this.LogarithmToTheBaseTenCalculate.Name = "LogarithmToTheBaseTenCalculate";
+            this.LogarithmToTheBaseTenCalculate.Size = new System.Drawing.Size(75, 23);
+            this.LogarithmToTheBaseTenCalculate.TabIndex = 27;
+            this.LogarithmToTheBaseTenCalculate.Text = "Log10";
+            this.LogarithmToTheBaseTenCalculate.UseVisualStyleBackColor = true;
+            this.LogarithmToTheBaseTenCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button22
+            // NaturaleLogarithmCalculate
             // 
-            this.button22.Location = new System.Drawing.Point(417, 198);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 28;
-            this.button22.Text = "Ln";
-            this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.NaturaleLogarithmCalculate.Location = new System.Drawing.Point(417, 198);
+            this.NaturaleLogarithmCalculate.Name = "NaturaleLogarithmCalculate";
+            this.NaturaleLogarithmCalculate.Size = new System.Drawing.Size(75, 23);
+            this.NaturaleLogarithmCalculate.TabIndex = 28;
+            this.NaturaleLogarithmCalculate.Text = "Ln";
+            this.NaturaleLogarithmCalculate.UseVisualStyleBackColor = true;
+            this.NaturaleLogarithmCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button23
+            // ModuleNumberCalculate
             // 
-            this.button23.Location = new System.Drawing.Point(417, 227);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 29;
-            this.button23.Text = "|x|";
-            this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.ModuleNumberCalculate.Location = new System.Drawing.Point(417, 227);
+            this.ModuleNumberCalculate.Name = "ModuleNumberCalculate";
+            this.ModuleNumberCalculate.Size = new System.Drawing.Size(75, 23);
+            this.ModuleNumberCalculate.TabIndex = 29;
+            this.ModuleNumberCalculate.Text = "|x|";
+            this.ModuleNumberCalculate.UseVisualStyleBackColor = true;
+            this.ModuleNumberCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button24
+            // NegativeNumberCalculate
             // 
-            this.button24.Location = new System.Drawing.Point(417, 256);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 30;
-            this.button24.Text = "-x";
-            this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.NegativeNumberCalculate.Location = new System.Drawing.Point(417, 256);
+            this.NegativeNumberCalculate.Name = "NegativeNumberCalculate";
+            this.NegativeNumberCalculate.Size = new System.Drawing.Size(75, 23);
+            this.NegativeNumberCalculate.TabIndex = 30;
+            this.NegativeNumberCalculate.Text = "-x";
+            this.NegativeNumberCalculate.UseVisualStyleBackColor = true;
+            this.NegativeNumberCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button25
+            // TwoPowerNumberCalculate
             // 
-            this.button25.Location = new System.Drawing.Point(417, 285);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(75, 23);
-            this.button25.TabIndex = 31;
-            this.button25.Text = "2^x";
-            this.button25.UseVisualStyleBackColor = true;
-            this.button25.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.TwoPowerNumberCalculate.Location = new System.Drawing.Point(417, 285);
+            this.TwoPowerNumberCalculate.Name = "TwoPowerNumberCalculate";
+            this.TwoPowerNumberCalculate.Size = new System.Drawing.Size(75, 23);
+            this.TwoPowerNumberCalculate.TabIndex = 31;
+            this.TwoPowerNumberCalculate.Text = "2^x";
+            this.TwoPowerNumberCalculate.UseVisualStyleBackColor = true;
+            this.TwoPowerNumberCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
-            // button26
+            // TenPowerNumberCalculate
             // 
-            this.button26.Location = new System.Drawing.Point(498, 111);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(75, 23);
-            this.button26.TabIndex = 32;
-            this.button26.Text = "10^x";
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
+            this.TenPowerNumberCalculate.Location = new System.Drawing.Point(498, 111);
+            this.TenPowerNumberCalculate.Name = "TenPowerNumberCalculate";
+            this.TenPowerNumberCalculate.Size = new System.Drawing.Size(75, 23);
+            this.TenPowerNumberCalculate.TabIndex = 32;
+            this.TenPowerNumberCalculate.Text = "10^x";
+            this.TenPowerNumberCalculate.UseVisualStyleBackColor = true;
+            this.TenPowerNumberCalculate.Click += new System.EventHandler(this.ButtonClickForOneArgumentFunctions);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(593, 324);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.TenPowerNumberCalculate);
+            this.Controls.Add(this.TwoPowerNumberCalculate);
+            this.Controls.Add(this.NegativeNumberCalculate);
+            this.Controls.Add(this.ModuleNumberCalculate);
+            this.Controls.Add(this.NaturaleLogarithmCalculate);
+            this.Controls.Add(this.LogarithmToTheBaseTenCalculate);
+            this.Controls.Add(this.LogarithmCalculate);
+            this.Controls.Add(this.ExponentialCalculate);
+            this.Controls.Add(this.OneDivArgCalculate);
+            this.Controls.Add(this.ArctanCalculate);
+            this.Controls.Add(this.CtanCalculate);
+            this.Controls.Add(this.ArccosCalculate);
+            this.Controls.Add(this.ArcsinCalculate);
+            this.Controls.Add(this.TanCalculate);
+            this.Controls.Add(this.CosCalculate);
+            this.Controls.Add(this.SinCalculate);
+            this.Controls.Add(this.MidGeometricCalculate);
+            this.Controls.Add(this.MiddleArithmeticCalculate);
+            this.Controls.Add(this.MaxCalculate);
+            this.Controls.Add(this.MinCalculate);
+            this.Controls.Add(this.SqrtCalculate);
+            this.Controls.Add(this.PowCalculate);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -422,10 +422,10 @@
             this.Controls.Add(this.Value2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.Value1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.DivisionCalculate);
+            this.Controls.Add(this.MultiplyCalculate);
+            this.Controls.Add(this.SubstractionCalculate);
+            this.Controls.Add(this.AdditionCalculate);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -436,10 +436,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button AdditionCalculate;
+        private System.Windows.Forms.Button SubstractionCalculate;
+        private System.Windows.Forms.Button MultiplyCalculate;
+        private System.Windows.Forms.Button DivisionCalculate;
         private System.Windows.Forms.TextBox Value1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox Value2;
@@ -447,28 +447,28 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button PowCalculate;
+        private System.Windows.Forms.Button SqrtCalculate;
+        private System.Windows.Forms.Button MinCalculate;
+        private System.Windows.Forms.Button MaxCalculate;
+        private System.Windows.Forms.Button MiddleArithmeticCalculate;
+        private System.Windows.Forms.Button MidGeometricCalculate;
+        private System.Windows.Forms.Button SinCalculate;
+        private System.Windows.Forms.Button CosCalculate;
+        private System.Windows.Forms.Button TanCalculate;
+        private System.Windows.Forms.Button ArcsinCalculate;
+        private System.Windows.Forms.Button ArccosCalculate;
+        private System.Windows.Forms.Button CtanCalculate;
+        private System.Windows.Forms.Button ArctanCalculate;
+        private System.Windows.Forms.Button OneDivArgCalculate;
+        private System.Windows.Forms.Button ExponentialCalculate;
+        private System.Windows.Forms.Button LogarithmCalculate;
+        private System.Windows.Forms.Button LogarithmToTheBaseTenCalculate;
+        private System.Windows.Forms.Button NaturaleLogarithmCalculate;
+        private System.Windows.Forms.Button ModuleNumberCalculate;
+        private System.Windows.Forms.Button NegativeNumberCalculate;
+        private System.Windows.Forms.Button TwoPowerNumberCalculate;
+        private System.Windows.Forms.Button TenPowerNumberCalculate;
     }
 }
 

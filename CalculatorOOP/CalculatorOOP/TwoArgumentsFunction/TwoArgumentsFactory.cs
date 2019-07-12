@@ -13,21 +13,21 @@ namespace CalculatorOOP
         {
             switch (name)
             {
-                case "button1":
+                case "AdditionCalculate":
                     return new AdditionCalculate();
-                case "button2":
+                case "SubstractionCalculate":
                     return new SubstractionCalculate();
-                case "button3":
+                case "MultiplyCalculate":
                     return new MultiplyCalculate();
-                case "button4":
+                case "DivisionCalculate":
                     return new DivisionCalculate();
-                case "button7":
+                case "MinCalculate":
                     return new MinCalculate();
-                case "button8":
+                case "MaxCalculate":
                     return new MaxCalculate();
-                case "button9":
+                case "MiddleArithmeticCalculate":
                     return new MiddleArithmeticCalculate();
-                case "button10":
+                case "MiddleGeometricCalculate":
                     return new MiddleGeometricCalculate();
                 default:
                     throw new Exception("Неизвестная операция");

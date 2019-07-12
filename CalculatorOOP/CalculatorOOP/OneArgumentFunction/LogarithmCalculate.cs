@@ -4,16 +4,18 @@ namespace CalculatorOOP
 {
     public class LogarithmCalculate : IOneArgumentCalculate
     {
+        /// <summary>
+        /// this function calculate Log of first argument 
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns></returns>
         public double OneArgCalculate(double number)
         {
             if (number <= 0)
             {
                 throw new Exception("Число должно быть больше нуля");
             }
-            else
-            {
-                return Math.Log(number, 2);
-            }
+            return Math.Log(number, 2);
         }
     }
 }

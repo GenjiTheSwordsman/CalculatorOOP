@@ -13,41 +13,41 @@ namespace CalculatorOOP
         {
             switch (name)
             {
-                case "button5":
+                case "PowCalculate":
                     return new PowCalculate();
-                case "button6":
+                case "SqrtCalculate":
                     return new SqrtCalculate();
-                case "button11":
+                case "SinCalculate":
                     return new SinCalculate();
-                case "button12":
+                case "CosCalculate":
                     return new CosCalculate();
-                case "button13":
+                case "TanCalculate":
                     return new TanCalculate();
-                case "button14":
+                case "ArcsinCalculate":
                     return new ArcsinCalculate();
-                case "button15":
+                case "ArccosCalculate":
                     return new ArccosCalculate();
-                case "button16":
+                case "CtanCalculate":
                     return new CtanCalculate();
-                case "button17":
+                case "ArctanCalculate":
                     return new ArctanCalculate();
-                case "button18":
+                case "OneDivArgCalculate":
                     return new OneDivArgCalculate();
-                case "button19":
+                case "ExponentialCalculate":
                     return new ExponentialCalculate();
-                case "button20":
+                case "LogarithmCalculate":
                     return new LogarithmCalculate();
-                case "button21":
+                case "LogarithmToTheBaseTenCalculate":
                     return new LogarithmToTheBaseTenCalculate();
-                case "button22":
+                case "NaturalLogarithmCalculate":
                     return new NaturalLogarithmCalculate();
-                case "button23":
+                case "ModuleNumberCalculate":
                     return new ModuleNumberCalculate();
-                case "button24":
+                case "NegativeNumberCalculate":
                     return new NegativeNumberCalculate();
-                case "button25":
+                case "TwoPowerNumberCalculate":
                     return new TwoPowerNumberCalculate();
-                case "button26":
+                case "TenPowerNumberCalculate":
                     return new TenPowerNumberCalculate();
                 default:
                     throw new Exception("Неизвестная операция");
