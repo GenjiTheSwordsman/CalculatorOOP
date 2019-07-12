@@ -1,5 +1,4 @@
-﻿using System;
-namespace CalculatorOOP
+﻿namespace CalculatorOOP
 {
     public class NegativeNumberCalculate : IOneArgumentCalculate
     {

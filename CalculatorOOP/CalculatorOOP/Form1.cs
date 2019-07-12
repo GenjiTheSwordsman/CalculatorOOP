@@ -25,6 +25,12 @@ namespace CalculatorOOP
 
         }
         
+        /// <summary>
+        /// the function output on display result (take two arguments for input)
+        /// and the function for create calculate for needed a button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonClickForTwoArgumentsFunctions(object sender, EventArgs e)
         {
             try
@@ -40,7 +46,13 @@ namespace CalculatorOOP
                 MessageBox.Show("Ошибка");
             }
         }
-
+        /// <summary>
+        /// the function take one argument for calculate
+        /// this need for sqrt/pow/etc 
+        /// a argument will be taken from the first input
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonClickForOneArgumentFunctions(object sender, EventArgs e)
         {
             try
@@ -56,16 +68,6 @@ namespace CalculatorOOP
             }
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
         {
 
         }

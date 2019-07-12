@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace CalculatorOOP
 {
     public class NaturalLogarithmCalculate : IOneArgumentCalculate
